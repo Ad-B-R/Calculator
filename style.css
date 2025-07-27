@@ -1,0 +1,35 @@
+body{
+    padding: 25px;
+}
+.title {
+    color: #5C6AC4;
+}
+.columns{
+    display:flex;
+    flex-direction: row;
+    padding:10px;
+}
+.rows{
+    font-size:24px;
+    width:80px;
+    height:80px;
+    border:1px solid #ccc;
+    border-radius:12px;
+    cursor:pointer;
+    padding:24px;
+    background-color:black;
+    color:white;
+    gap:10px;
+    justify-content: center;
+    align-content: center;
+}
+#calculator{
+    display:flex;
+    flex-direction: column;
+    cursor:pointer;
+    padding:20px;
+}
+.operations{
+    background-color: orange;
+    color:white;
+}
